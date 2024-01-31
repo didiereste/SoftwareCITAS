@@ -6,15 +6,17 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 
 2-Ingresar a la carpeta del proyecto Instala las dependencias: composer install
 
-3-Configuración del archivo de entorno: cp .env.example .env
+3-Ingresar al proyecto
 
-4-Genera la clave de la aplicación: php artisan key:generate php artisan migrate --seed
+4-Configuración del archivo de entorno en la terminal: cp .env.example .env
 
-5-Realiza las migracion tabla tipo_vehiculos: php artisan migrate --path=/database/migrations/2024_01_10_181529_create_citas_table.php
+5-Genera la clave de la aplicación: php artisan key:generate
 
-6-Migrar resto de tablas y los seeders: php artisan migrate --seed
+6-Ir al archivo .env y .env poner nombre a la base de datos para poder hacer las migraciones
 
-7-Inciar proyecto php artisan serve
+7-Migrar las tablas y los seeders : php artisan migrate --seed
+
+8-Inciar proyecto php artisan serve
 
 
 //USUARIO ADMIN 
