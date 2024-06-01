@@ -40,8 +40,8 @@
             <button type="submit">Login</button>
         </form>
         <div class="text-center">
-            <p>¿No tienes cuenta? <strong>pulsaaaaaa<a href="" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">aquiiiii</a></strong></p>
+            <p>¿No tienes cuenta? <strong>pulsa<a href="" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">aqu</a></strong></p>
         </div>
     </div>
     <!-- Modal -->
